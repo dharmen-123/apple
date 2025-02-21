@@ -1,0 +1,228 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+    top: 0%;
+    gap: 50px;
+    width: 100%;
+    height: 53px;
+    border: 0px solid black;
+    background-color: rgba(27, 25, 25, 0.958);
+    position: fixed;
+}
+
+.navbar img{
+    width: 40px;
+    height: 40px;
+}
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 40px;
+    font-size: 18px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(250, 248, 248);
+}
+.navbar ul li a:hover{
+    color: rgb(245, 22, 6);
+    /* border-bottom: 2px solid white; */
+}
+.navbar nav ul li::before{
+    content: " ";
+    position: absolute;
+    transform: translate(30%,50%) ;
+    top: 70%;
+    width: 0px;
+    height: 4px;
+    background-color: white;
+    transition-duration: .5s;
+}
+.navbar li:hover::before{
+    width: 50px;
+}
+.navbar a{
+    text-decoration: none;
+    color: rgb(249, 246, 246);
+}
+.navbar i{
+    font-size: 20px;
+
+}
+#iphone16{
+    width: 99%;
+    height: 91vh;
+   margin: .5%;
+   margin-top: 59px;
+    display:flex;
+    border-radius: 10px;
+}
+.headtext{
+    display:inline;
+    justify-content: center;
+    justify-items: center;
+    position:absolute;
+     color: white; 
+     font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+     top: 13%;
+     left: 40%;
+}
+.headline{
+        font-size: 48px;
+        font-weight: 700;
+    }
+.subhead{
+    font-size: 24px;
+    font-weight: 200;    
+}
+
+#iphoneAI{
+    width: 99%;
+    height: 91vh;
+   margin: .5%;
+   margin-top: 14px;
+    display:flex;
+    border-radius: 10px;
+    box-shadow: 4px 6px 8px 4px rgb(63, 60, 60);
+}  
+.topbutton{
+    position: absolute;
+    word-spacing: 20px;
+    text-align: center;
+      top:80%;
+      left: 38%;
+}
+.secondbutton{
+    position: absolute;
+    word-spacing: 20px;
+    text-align: center;
+      top:172%;
+      left: 40%;
+}
+.topbutton p{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    word-spacing: 0px;
+    padding: 10px;
+}
+#learnbutton{
+    width: 140px;
+     height: 37px;
+     font-size: 20px;
+     font-weight: bold;
+     color:white;
+     border: 0px solid blue;
+     border-radius: 16px;
+     background-color: rgb(3, 156, 251);
+}
+#buybutton{
+    width: 70px;
+    height: 37px;
+    border-radius: 16px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid;
+    color:rgb(3, 156, 251) ;
+    background: transparent;
+}
+.slide{
+      display:flex;
+      flex-wrap:initial;
+      justify-content: space-between;
+}
+.text1{
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 4px 5px 3px rgb(136, 197, 209);
+    color: rgb(245, 133, 245);
+    text-align: center;
+}
+
+.slide div{
+    /* font-size: 40px; */
+    /* color: rgba(224, 4, 4, 0.967); */
+    /* text-align: center; */
+    /* border:1px solid black; */
+    border-radius: 20px;
+    margin:1%;
+    box-shadow: 10px 6px 10px 5px  rgba(32, 27, 27, 0.862);
+    width: 500px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+.watchslide{
+     
+  width: 100%;
+  /* height: 100vh; */
+}
+.watchslide #imagecontain{
+    display: grid;
+    /* align-items: center; */
+    /* justify-items: center; */
+   grid-template-columns:repeat(auto-fill ,600px) ;
+   gap: 10px 10px;  
+   justify-content:center;
+}
+.watchslide #imagecontain div{
+    /* border-radius: 20px; */
+    /* margin:.5%; */
+    /* box-shadow: 10px 6px 10px 5px  rgba(32, 27, 27, 0.862); */
+    border: 1px solid rgb(16, 6, 6);
+    /* width: 700px; */
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+#watch1{
+    background-image: url(applewatch1.png); 
+}
+#watch2{
+    background-image: url(maclaptop1.png);
+}
+#img1{
+    background-image: url(iphone14.jpeg);
+
+}
+
+#img3{
+    background-image: url(iphone15promax.jpeg.jpg);
+    
+}#img4{
+    background-image: url(iphone15pro.jpeg.jpg);
+
+}
+#imgnew1{
+       background-image: url(ipad.png.jpg);
+}
+#imgnew3{
+    background-image: url(applewatch.png.jpg);
+}
+#imgnew4{
+    background-image: url(ipadprobg.png.jpg);
+}
+
+
+
+.lastline{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+.lastline div a{
+    text-decoration: none;
+    color: grey;
+    gap: 50px;
+}
+
